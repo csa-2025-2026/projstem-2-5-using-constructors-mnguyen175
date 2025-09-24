@@ -37,7 +37,7 @@ public class Main
     RegularPolygon equilateral = new RegularPolygon(sideLength);
     RegularPolygon sideTriangle = new RegularPolygon(4, sideLength);
 
-    System.out.println(equilateral.toString() + sideTriangle.toString());
+    System.out.println(equilateral.toString() + "\n" + sideTriangle.toString());
 
   }
 }
